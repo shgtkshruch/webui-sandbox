@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 0.8em "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+h2 {
+  margin-bottom: 10px; }
+
+#wrapper {
+  width: 720px;
+  margin: 40px auto 0px; }
+  #wrapper h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px; }
+  #wrapper a {
+    display: block;
+    font-size: 1.2em;
+    padding-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center; }
+
+#tabContainer {
+  width: 700px;
+  padding: 15px;
+  background-color: #2e2e2e;
+  border-radius: 4px; }
+
+.tabs {
+  height: 30px; }
+  .tabs > ul {
+    font-size: 1em;
+    list-style: none; }
+    .tabs > ul > li {
+      margin: 0 2px 0 0;
+      padding: 7px 10px;
+      display: block;
+      float: left;
+      color: #fff;
+      user-select: none;
+      border-radius: 4px 4px 0 0;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0C91EC), color-stop(100%, #257AB6)); }
+      .tabs > ul > li:hover, .tabs > ul > li.tabActiveHeader {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(10%, #F3F3F3), color-stop(50%, #F3F3F3), color-stop(100%, #FFFFFF));
+        cursor: pointer;
+        color: #333; }
+
+.tabscontent {
+  border-radius: 0 4px 4px 4px;
+  padding: 10px 10px 25px;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(90%, #FFFFFF), color-stop(100%, #e4e9ed));
+  color: #333; }

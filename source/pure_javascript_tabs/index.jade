@@ -1,0 +1,19 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset='UTF-8')
+    title Pure JavaScript Tabs
+    link(rel="stylesheet" href="style.css")
+  body
+    #wrapper
+      #tabContainer
+        .tabs
+          ul
+            - for (var i = 0; i < 5; i++)
+              li(id="tabHeader_#{i+1}") Page #{i+1}
+        .tabscontent
+          - for (var i = 0; i < 5; i++)
+            .tabpage(id="tabpage_#{i+1}")
+              h2 Page #{i+1}
+              p Lorem quae reiciendis tempore quisquam accusamus. Totam ab quae blanditiis tempore voluptatum ullam esse alias nulla saepe. Quos libero assumenda rem pariatur dolorum adipisci doloremque saepe in repellat itaque voluptatem.
+    script(src="./script.js")
