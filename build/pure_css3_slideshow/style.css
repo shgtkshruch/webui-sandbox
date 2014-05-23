@@ -1,0 +1,150 @@
+ul {
+  padding: 0;
+  width: 480px;
+  float: left;
+  list-style: none;
+}
+ul img {
+  vertical-align: bottom;
+}
+ul.test {
+  float: right;
+}
+ul.test li {
+  position: static;
+}
+
+.slideshow {
+  position: relative;
+  cursor: pointer;
+  list-style: none;
+}
+.slideshow li {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  -webkit-animation: CSS3slideshow 14s ease 0s infinite;
+  -moz-animation: CSS3slideshow 14s ease 0s infinite;
+  -ms-animation: CSS3slideshow 14s ease 0s infinite;
+  -o-animation: CSS3slideshow 14s ease 0s infinite;
+  animation: CSS3slideshow 14s ease 0s infinite;
+}
+.slideshow li:nth-child(2) {
+  z-index: 3;
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  -ms-animation-delay: 3.5s;
+  -o-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+.slideshow li:nth-child(3) {
+  z-index: 2;
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  -ms-animation-delay: 7s;
+  -o-animation-delay: 7s;
+  animation-delay: 7s;
+}
+.slideshow li:nth-child(4) {
+  z-index: 1;
+  -webkit-animation-delay: 10.5s;
+  -moz-animation-delay: 10.5s;
+  -ms-animation-delay: 10.5s;
+  -o-animation-delay: 10.5s;
+  animation-delay: 10.5s;
+}
+.slideshow:hover li {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+@-webkit-keyframes CSS3slideshow {
+  21.43% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  96.43% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes CSS3slideshow {
+  21.43% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  96.43% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes CSS3slideshow {
+  21.43% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  96.43% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes CSS3slideshow {
+  21.43% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  96.43% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes CSS3slideshow {
+  21.43% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  96.43% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
